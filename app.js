@@ -37,7 +37,6 @@ function downloadList() {
 
 document.getElementById('downloadBtn').addEventListener('click', downloadList);
 
-// Funzione per aggiungere un elemento alla lista con la quantità selezionata
 function addItem() {
     var input = document.getElementById("itemInput");
     var select = document.getElementById("quantitySelect");
